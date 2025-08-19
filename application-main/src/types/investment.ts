@@ -3,6 +3,7 @@ export interface Investment {
   name: string;
   type: InvestmentType;
   amount: number;
+  value?: number; // compatibilidade com backend
   date: string;
   createdAt?: string;
   updatedAt?: string;

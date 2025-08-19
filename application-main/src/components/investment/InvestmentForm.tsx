@@ -13,7 +13,7 @@ interface InvestmentFormProps {
   submitLabel?: string;
 }
 
-const investmentTypes: InvestmentType[] = ['Ação', 'Fundo', 'Título', 'ETF', 'Crypto'];
+const investmentTypes: InvestmentType[] = ['Ação', 'Fundo', 'Título'];
 
 export const InvestmentForm = ({ onSubmit, initialData, submitLabel = "Cadastrar Investimento" }: InvestmentFormProps) => {
   const [formData, setFormData] = useState<InvestmentFormData>(

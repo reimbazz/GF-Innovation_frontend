@@ -103,7 +103,7 @@ export const InvestmentTable = ({ investments, onEdit, onDelete }: InvestmentTab
                       </Badge>
                     </TableCell>
                     <TableCell className="font-mono">
-                      {formatCurrency(investment.amount)}
+                      {formatCurrency(investment.value)}
                     </TableCell>
                     <TableCell>{formatDate(investment.date)}</TableCell>
                     <TableCell className="text-right">
